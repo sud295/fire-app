@@ -26,8 +26,7 @@ const App = () => {
               </a>
       <Link to="/form"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Report Fire </span>}</Link>
       <Link to="/potentialfires"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Potential Fires</span>}</Link>
-      <Link to="/page3"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Link 3</span>}</Link>
-      <Link to="/page4"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Link 4</span>}</Link>
+  
       <Link to="/map"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Back to Map</span>}</Link>
 
       </div>
@@ -38,8 +37,7 @@ const App = () => {
     <Route path="/map" element={<Map/>}/>
     <Route path="/form" element={<Form />} />
     <Route path="/potentialfires" element={<PotentialFires/>} />
-    <Route path="/page3" element={<div>Content or Component for Page 3</div>} />
-    <Route path="/page4" element={<div>Content or Component for Page 4</div>} />
+    
   </Routes>
 </div>
   );
