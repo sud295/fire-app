@@ -1,10 +1,10 @@
 .fire-report-form {
     background-color: #FFEBE6; 
-    border-radius: 5vw; 
-    padding: 5vw;
-    max-width: 30vw;
-    margin: 8vw auto;
-    box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.1); 
+    border-radius: 2vw; 
+    padding: 3vw;
+    max-width: 25vw;
+    margin: 2vw auto;
+    box-shadow: 0vw 1vw 2vw rgba(0, 0, 0, 0.1); 
 }
 
 .fire-report-form label {
