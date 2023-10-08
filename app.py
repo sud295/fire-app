@@ -3,8 +3,10 @@ import requests
 import csv
 from io import StringIO
 import yaml
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 def get_api_data():
     with open("keys.yml", 'r') as f:
