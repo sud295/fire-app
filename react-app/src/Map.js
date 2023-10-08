@@ -1,5 +1,6 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { googleMapsApiKey } from './config';
 
 const containerStyle = {
   width: '100vw',
@@ -25,7 +26,7 @@ const redCircleURL = `data:image/svg+xml,${encodeURIComponent(redCircleSVG)}`;
 
 function MapComponent() {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBXzXpZUndUB8rjRqYBHwCUYiaKJQp6obg">
+    <LoadScript googleMapsApiKey={googleMapsApiKey}>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
