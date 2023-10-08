@@ -1,0 +1,43 @@
+.fire-report-form {
+    background-color: #FFEBE6; 
+    border-radius: 5vw; 
+    padding: 5vw;
+    max-width: 30vw;
+    margin: 8vw auto;
+    box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.1); 
+}
+
+.fire-report-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fire-report-form input, 
+.fire-report-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; 
+}
+
+.fire-report-form input:hover, 
+.fire-report-form textarea:hover {
+    border-color: #FFC1C1; 
+}
+
+.fire-report-form button {
+    background-color: #FFAFAF; 
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.fire-report-form button:hover {
+    background-color: #FF8F8F; 
+}
