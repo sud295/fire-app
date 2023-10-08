@@ -25,7 +25,7 @@ const App = () => {
               {navOpen ? '×' : '☰'}
               </a>
       <Link to="/form"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Report Fire </span>}</Link>
-      <Link to="/potentialfires"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Link 2</span>}</Link>
+      <Link to="/potentialfires"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Potential Fires</span>}</Link>
       <Link to="/page3"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Link 3</span>}</Link>
       <Link to="/page4"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Link 4</span>}</Link>
       <Link to="/map"><span className="icon">🔗</span>{navOpen && <span className="link-text"> Back to Map</span>}</Link>
