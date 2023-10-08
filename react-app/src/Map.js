@@ -3,21 +3,15 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { googleMapsApiKey } from './config';
 
 const containerStyle = {
-  width: '100vw',
-  height: '100vh'
+  width: '96vw',
+  height: '100vh', 
+  position: 'absolute',
+  right: '0',
 };
 
 const center = {
   lat: 41.85,
   lng: -87.65
-};
-
-
-const fireStyle = {
-  cursor: 'pointer',
-  color: 'red',
-  fontSize: '30px',
-  fontWeight: 'bold',
 };
 
 const markers = [
