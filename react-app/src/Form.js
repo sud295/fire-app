@@ -17,8 +17,29 @@ function FireReportForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
-        alert('Form submitted. Check the console for data.');
+
+        fetch('http://127.0.0.1:5000/alert', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+        .then((response) => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Form submission failed.');
+            }
+        })
+        .then((data) => {
+            alert('Form submitted successfully.');
+            console.log(data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while submitting the form.');
+        });
     };
 
     return (
