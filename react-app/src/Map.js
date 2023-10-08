@@ -31,6 +31,7 @@ function MapComponent() {
         center={center}
         zoom={10}
       >
+       
       {markers.map(marker => (
         <Marker
           key={marker.id}
