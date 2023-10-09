@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='p-5 text-center bg-light'>
-        <h1 className='mb-3'> FireSafe USA</h1>
+        <h1 className='mb-3'> FireSafe</h1>
       </div>
         <div className={`side-nav ${navOpen ? '' : 'collapsed'}`} 
              style={{width: navOpen ? '15vw' : '4vw'}}>
