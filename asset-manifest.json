@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fire-app/static/css/main.83f50c38.css",
-    "main.js": "/fire-app/static/js/main.dd1ad19a.js",
+    "main.js": "/fire-app/static/js/main.e582d336.js",
     "index.html": "/fire-app/index.html",
     "main.83f50c38.css.map": "/fire-app/static/css/main.83f50c38.css.map",
-    "main.dd1ad19a.js.map": "/fire-app/static/js/main.dd1ad19a.js.map"
+    "main.e582d336.js.map": "/fire-app/static/js/main.e582d336.js.map"
   },
   "entrypoints": [
     "static/css/main.83f50c38.css",
-    "static/js/main.dd1ad19a.js"
+    "static/js/main.e582d336.js"
   ]
 }
